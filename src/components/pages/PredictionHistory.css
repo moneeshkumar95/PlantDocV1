@@ -1,0 +1,110 @@
+h2 {
+  text-align: center;
+}
+
+.prediction-history-container {
+  margin: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+td {
+    padding: 8px;
+  }
+}
+
+
+/* PredictionHistory.css */
+.prediction-history-container {
+  padding: 20px;
+}
+
+.prediction-history-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.prediction-history-filters input,
+.prediction-history-filters select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.prediction-history-filters select {
+  appearance: none;
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 17l-6.667-6.667L5.666 7H2V5h4.333l-2-2H6L10 0l4 4h1.333l-1.666 1.333L10 7v10zM10 16v1l1.846-1.846L10 13.307v2.693z' fill='%23444'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+.prediction-history-filters select::-ms-expand {
+  display: none;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
