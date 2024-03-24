@@ -3,6 +3,7 @@ from botocore.exceptions import ClientError
 from boto3.dynamodb.conditions import Key, Attr
 import numpy as np
 
+
 from apis.auth.utils import farmer_access, admin_access
 from global_utils import success_response, convert_to_lower, CLASS_NAMES, MODEL, read_file_as_image
 from global_models import UserTable, PredictionHistoryTable
