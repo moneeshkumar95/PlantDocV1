@@ -19,5 +19,3 @@
 ![Screenshot 2023-08-18 230414](https://github.com/moneeshkumar95/PlantDocV1/assets/78355845/de8fa854-6703-433d-8c89-d0a1f35c1b29)
 
 ![Screenshot 2023-08-18 230402](https://github.com/moneeshkumar95/PlantDocV1/assets/78355845/dfe97d56-34ba-4a24-be1b-b3dce8ffc599)
-
-![Screenshot 2023-08-18 230348](https://github.com/moneeshkumar95/PlantDocV1/assets/78355845/1cf91751-da40-4f97-9376-f7d60c43219e)
