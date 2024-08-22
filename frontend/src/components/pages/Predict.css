@@ -1,0 +1,73 @@
+.predict-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  
+  
+}
+
+.file-input-label {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.file-input {
+  opacity: 0;
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.image-preview {
+  margin-bottom: 10px;
+}
+
+.predict-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result-container {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.result-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-info {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.result-accuracy {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+}
+

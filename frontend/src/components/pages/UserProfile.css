@@ -1,0 +1,15 @@
+.user-profile-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.card {
+  width: 300px;
+  margin-top: 10px;
+}
